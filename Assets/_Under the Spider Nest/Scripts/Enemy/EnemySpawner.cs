@@ -11,7 +11,7 @@ public class EnemySpawner : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        InvokeRepeating("SpawnSpiders", 1f, spawnInterval);
+        InvokeRepeating(nameof(SpawnSpiders), 1f, spawnInterval);
     }
 
 

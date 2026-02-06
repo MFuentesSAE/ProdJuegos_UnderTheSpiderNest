@@ -14457,6 +14457,7 @@ GameObject:
   - component: {fileID: 3379070734419437719}
   - component: {fileID: 3379070734419437723}
   - component: {fileID: 3379070734419437725}
+  - component: {fileID: 3379070734419437726}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -15530,6 +15531,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HP
   playerHP: 1
   hpText: {fileID: 329957787}
+--- !u!114 &3379070734419437726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2715404779396100652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aaaf7ddc0810724d92708bd06519c9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponRifle
+  fireRate: 0.1
+  damage: 0
+  firePoint: {fileID: 948073343}
+  range: 25
+  mask:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!1 &3399570518459003604
 GameObject:
   m_ObjectHideFlags: 0
