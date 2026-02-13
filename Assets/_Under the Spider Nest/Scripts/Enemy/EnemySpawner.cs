@@ -11,6 +11,8 @@ public class EnemySpawner : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        //Si se va usar una funnción que se requiera pasar el nombre de otra como string, usar "nameof" esto transforma el nombre de la función en dicho tipo
+        //y es code-safe ya que si se cambia el nombre de la función referenciada no causa que esta se pierda.
         InvokeRepeating(nameof(SpawnSpiders), 1f, spawnInterval);
     }
 
