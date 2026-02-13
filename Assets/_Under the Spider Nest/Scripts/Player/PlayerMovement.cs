@@ -39,8 +39,10 @@ public class PlayerMovement : MonoBehaviour
         bool isMoving = move.magnitude > 0.01f;
 
         animator.SetBool("Walking", isMoving);
+        UpddateAnimator(move);
 
-    }
+
+	}
 
     void Rotate()
     {
@@ -62,5 +64,11 @@ public class PlayerMovement : MonoBehaviour
         }
 
     }
+
+    void UpddateAnimator(Vector3 movementVector)
+    {
+		animator.SetFloat("MoveX", movementVector.x);
+		animator.SetFloat("MoveZ", movementVector.z);
+	}
 
 }
