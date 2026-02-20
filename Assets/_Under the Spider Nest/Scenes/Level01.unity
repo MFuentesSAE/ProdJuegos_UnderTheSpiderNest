@@ -319,6 +319,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6648090840667258826, guid: 416097c1b82bc784f908868998f9f0fa, type: 3}
   m_PrefabInstance: {fileID: 28805712}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &29330847 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6870430025719264224, guid: b42233707402e7d4bbdbf1d7e4c80a66, type: 3}
+  m_PrefabInstance: {fileID: 2403704808308431832}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &51601913
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15326,7 +15331,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 210899948684659708, guid: b42233707402e7d4bbdbf1d7e4c80a66, type: 3}
   m_PrefabInstance: {fileID: 2403704808308431832}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 29330847}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f22c1328ec0bf0449ac1d95378e522f4, type: 3}
@@ -32307,7 +32312,7 @@ PrefabInstance:
     - target: {fileID: 210899948684659708, guid: b42233707402e7d4bbdbf1d7e4c80a66, type: 3}
       propertyPath: prefabPowerUp
       value: 
-      objectReference: {fileID: 5756401790877480692, guid: b7613b074d4f4a74fb24029a21fcf54d, type: 3}
+      objectReference: {fileID: 29330847}
     - target: {fileID: 210899948684659708, guid: b42233707402e7d4bbdbf1d7e4c80a66, type: 3}
       propertyPath: bazookaBulletPrefab
       value: 
@@ -32409,6 +32414,10 @@ PrefabInstance:
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 6870430025719264224, guid: b42233707402e7d4bbdbf1d7e4c80a66, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503352902237500954, guid: b42233707402e7d4bbdbf1d7e4c80a66, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
